@@ -42,10 +42,10 @@ if __name__ == '__main__':
     __clear_logs()
     config_util.load_config()
 
-    ws_server = wsa_server.new_instance(port=10002)
-    feiFei = fay_core.new_instance()
-    ws_server.start_server()
-    ws_server.set_fei_fei(feiFei)
+    # ws_server = wsa_server.new_instance(port=10002)
+    # feiFei = fay_core.new_instance()
+    # ws_server.start_server()
+    # ws_server.set_fei_fei(feiFei)
     web_ws_server = wsa_server.new_web_instance(port=10003)
     web_ws_server.start_server()
 

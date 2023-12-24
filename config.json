@@ -21,7 +21,7 @@
             "indifferent": 10,
             "join": 10
         },
-        "playSound": false
+        "playSound": true
     },
     "items": [
         {
@@ -46,9 +46,9 @@
             "url": "ws://127.0.0.1:8888"
         },
         "record": {
-            "device": "",
-            "enabled": false
-        },
-        "wake_word_enabled": false
+            "channels": 2,
+            "device": "\u7acb\u4f53\u58f0\u6df7\u97f3 (Realtek High Definition ",
+            "enabled": true
+        }
     }
 }
